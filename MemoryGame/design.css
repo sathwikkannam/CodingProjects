@@ -1,0 +1,22 @@
+.row{
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.card{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    position: relative;
+
+}
+
+
+.card:hover{
+    border: 1px solid #EEE;
+    box-shadow: inset 0px 0px 0px 3px darkcyan;
+    box-sizing: border-box;
+}
+
