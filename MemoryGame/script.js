@@ -66,17 +66,3 @@ function generateColorIndex(){
     }
 
 }
-
-
-function cardsOK(){
-    var counter = 0;
-    for(var i=0;i<cards.length;i++){
-        if(cards[i].style.backgroundColor !== ""){
-            counter++;
-        }
-    }
-
-    if(counter === cards.length()){
-        return true;
-    }
-}
