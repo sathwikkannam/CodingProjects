@@ -8,8 +8,8 @@ import math
 import os
 
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-GIF_TOKEN = os.getenv("GIF_TOKEN")
+TOKEN = os.getenv("DISCORD_KEY")
+GIF_TOKEN = os.getenv("GIPHY_KEY")
 
 client = commands.Bot(command_prefix="!")
 gif_client = giphy_client.DefaultApi()
